@@ -22,3 +22,4 @@ delete_elements[0].click()
 assert len(delete_elements) == 1
 
 driver.quit()
+

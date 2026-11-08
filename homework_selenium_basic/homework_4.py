@@ -30,6 +30,3 @@ actual_value = input_field.get_attribute("0")
 assert actual_value == "0"
 
 
-
-
-
