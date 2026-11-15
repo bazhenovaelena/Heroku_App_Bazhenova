@@ -21,3 +21,4 @@ def test_1_delete_elements(browser):
     delete_elements[0].click()
     delete_elements = browser.find_elements(By.XPATH, '//button[text()="Delete"]')
     assert len(delete_elements) == 1
+
